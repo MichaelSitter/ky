@@ -95,4 +95,7 @@ export interface Hooks {
 	```
 	*/
 	afterResponse?: AfterResponseHook[];
+
+
+	onError?: OnErrorHook[];
 }
